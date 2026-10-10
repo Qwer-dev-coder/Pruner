@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest a new cleanup task, tweak or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see
+      description: Describe the problem first, then the change you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Is it safe and reversible
+      description: "For cleanup tasks and tweaks: what exactly changes and how it can be undone."
